@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <header id="header">
-        <a href="#" class="logo">AquaVibes</a>
+        <a href="#" class="logo">Power Up!</a>
         <ul>
           <li><p id="text">Everything Starts with Water</p></li>
         </ul>
@@ -14,8 +14,8 @@ export default function Home() {
       <section id="home">
         <img src="/img/background.png" alt="background" id="background"></img>
         <h2 id="text">
-          <span>The Importance of</span>
-          <br />Water
+          <span>Compete With Your Neighbors</span>
+          <br />Save The Planet
         </h2>
         <a href="#waterCycle" id="btn">Explore</a>
         
