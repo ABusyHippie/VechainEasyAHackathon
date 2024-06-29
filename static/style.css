@@ -159,7 +159,7 @@ section #text
 section #text-water 
 {
   position: absolute;
-  color: #006eb8;
+  color: #00bbff;
   font-size: 15vh;
   text-align: center;
   line-height: 0.55em;
@@ -181,7 +181,7 @@ section #text-water span
   font-size: 0.20em;
   color: #002843;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
   text-shadow: none;
 }
@@ -313,8 +313,8 @@ section #text span
 
 #btn-lit:hover
 {
-  background: #dbd700;
-  color: #fff;
+  background: #f3fb00;
+  color: #000000;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   transform: translateY(97px);
 }
