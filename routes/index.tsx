@@ -33,25 +33,25 @@ export default function Home() {
       </section>
       
       <section id="waterCycle" >
-        <img src="/img/water.png" alt="background" id="background"></img>
+        <img src="/img/electric.png" alt="background" id="background"></img>
         <h2 id="text-electric">
           <br />Use Less Electricity <br />
           <span>Try High Efficiency Bulbs 💡</span> <br />
           <span>Get a Bonus for Giving Back to the Grid ⚡️</span> <br />
           <span>Save on Your Bill by Watching With Friends 📺</span>
         </h2>
-        <a href="#waterCycle2" id="btn">Submit Your Water Bill Now</a>
+        <a href="#waterCycle2" id="btn-lit">Submit Your Electric Bill Now</a>
       </section>
 
       <section id="waterCycle" >
-        <img src="/img/water.png" alt="background" id="background"></img>
+        <img src="/img/fire.png" alt="background" id="background"></img>
         <h2 id="text-gas">
           <br />Use Less Gas <br />
           <span>Recycle Your Cooking Oil with  <a href="https://oily.uco.network/home">Oily</a></span> <br />
-          <span>Collect Rainwater Challenge 💧</span> <br />
-          <span>Grow Your Own Veggie Garden Multiplier 🥕</span>
+          <span>Try the Cold Shower Challenge 🥶</span> <br />
+          <span>Smart Heating Only The Rooms Your In 🧠</span>
         </h2>
-        <a href="#waterCycle2" id="btn">Submit Your Water Bill Now</a>
+        <a href="#waterCycle2" id="btn-gas">Submit Your Gas Bill Now</a>
       </section>
 
       <section id="evidenceOfWarning" class="sec">
