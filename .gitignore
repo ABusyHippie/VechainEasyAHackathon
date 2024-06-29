@@ -12,3 +12,6 @@ deno_test_coverage
 
 # Other files
 .DS_Store
+
+# Fresh build directory
+_fresh/
