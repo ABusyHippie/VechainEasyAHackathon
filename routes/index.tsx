@@ -7,23 +7,26 @@ export default function Home() {
       <header id="header">
         <a href="#" class="logo">Power Up!</a>
         <ul>
-          <li><p id="text">Everything Starts with Water</p></li>
+          <li><p id="text">Reduce your utilities use, make B3TR!</p></li>
         </ul>
       </header>
 
       <section id="home">
-        <img src="/img/background.png" alt="background" id="background"></img>
+        <img src="/img/water.png" alt="background" id="background"></img>
         <h2 id="text">
           <span>Compete With Your Neighbors</span>
           <br />Save The Planet
         </h2>
-        <a href="#waterCycle" id="btn">Explore</a>
+        <a href="#waterCycle" id="btn">Connect</a>
         
       </section>
 
-      <section id="waterCycle" class="sec">
-        <a href="#home" id="btn">Home</a>
-        <h2>Water Cycle</h2>
+      <section id="waterCycle" >
+        <img src="/img/water.png" alt="background" id="background"></img>
+        <h2 id="text">
+          <span>Compete With Your Neighbors</span>
+          <br />Save The Planet
+        </h2>
         <p>
           1- Evaporation: Water from the oceans, rivers, lakes, and puddles gets heated by the sun and turns into vapor. Imagine the water turning into "invisible clouds" that go up into the sky. <br />
           <br />2- Condensation: The water vapor cools in the sky and turns back into tiny water droplets. This forms clouds, which look like fluffy cotton in the sky. <br />
@@ -31,17 +34,7 @@ export default function Home() {
         </p>
         <a href="#waterCycle2" id="btn">Water Cycle 2</a>
       </section>
-      
-      <section id="waterCycle2" class="sec">
-        <a href="#waterCycle" id="btn">Water Cycle 1</a>
-        <h2>Water Cycle</h2>
-        <p>
-          4- Runoff: The rain or melted snow that falls on the Earth can go two ways: it either soaks into the ground and goes into rivers and lakes, or it forms puddles and streams that flow directly into rivers. <br />
-          <br />5- Accumulation: The water that goes into rivers and lakes stays there for a while. Later, it can evaporate again, continue flowing in the river, or eventually reach the ocean.
-        </p>
-        <a href="#whatIsClimateChange" id="btn">What Is Climate Change?</a>
-      </section>
-
+  
       <section id="whatIsClimateChange" class="sec">
         <a href="#waterCycle2" id="btn">Water Cycle 2</a>
         <h2>What Is Climate Change?</h2>
