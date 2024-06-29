@@ -15,3 +15,5 @@ deno_test_coverage
 
 # Fresh build directory
 _fresh/
+
+config.json
