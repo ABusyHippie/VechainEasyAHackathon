@@ -216,6 +216,36 @@ section #text-electric span
   text-shadow: none;
 }
 
+section #text-gas
+{
+  position: absolute;
+  color: #fb6900;
+  font-size: 15vh;
+  text-align: center;
+  line-height: 0.55em;
+  font-family: 'Rancho', cursive;
+  transform: translateY(-50%);
+  text-shadow: 
+    -3px -3px 0 #000,  
+     3px -3px 0 #000,
+    -3px  3px 0 #000,
+     3px  3px 0 #000,
+    -3px  0px 0 #000,
+     3px  0px 0 #000,
+     0px -3px 0 #000,
+     0px  3px 0 #000;
+}
+
+section #text-gas span
+{
+  font-size: 0.20em;
+  color: #fb6900;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: none;
+}
+
 section #text span
 {
   font-size: 0.20em;

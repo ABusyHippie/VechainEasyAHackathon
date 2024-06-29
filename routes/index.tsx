@@ -45,7 +45,7 @@ export default function Home() {
 
       <section id="waterCycle" >
         <img src="/img/water.png" alt="background" id="background"></img>
-        <h2 id="text-water">
+        <h2 id="text-gas">
           <br />Use Less Gas <br />
           <span>Recycle Your Cooking Oil with  <a href="https://oily.uco.network/home">Oily</a></span> <br />
           <span>Collect Rainwater Challenge 💧</span> <br />
