@@ -49,7 +49,7 @@ body
 {
   color: #f3fb00;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 3em;
   text-decoration: none;
   text-shadow: 
     -3px -3px 0 #000,  
@@ -107,7 +107,7 @@ section
   align-items: center;
 }
 
-section::before
+/* section::before
 {
   content: '';
   position: absolute;
@@ -117,7 +117,7 @@ section::before
   height: 100px;
   background: linear-gradient(to top, #094b65, transparent);
   z-index: 10;
-}
+} */
 
 section img
 {
@@ -139,7 +139,7 @@ section img
 section #text 
 {
   position: absolute;
-  color: #00cb62;
+  color: #009f03;
   font-size: 15vh;
   text-align: center;
   line-height: 0.55em;
@@ -270,10 +270,20 @@ section #text-gas span
 
 section #text span
 {
-  font-size: 0.20em;
+  font-size: 0.30em;
   letter-spacing: 2px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
+  color: #14ff3b;
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
 }
 
 #btn

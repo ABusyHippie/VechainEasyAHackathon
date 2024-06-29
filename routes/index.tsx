@@ -6,16 +6,16 @@ export default function Home() {
     <div>
       <header id="header">
         <a href="#" class="logo">Power Up!</a>
-        <ul>
+        {/* <ul>
           <li><p id="text">Reduce your utilities use, make B3TR!</p></li>
-        </ul>
+        </ul> */}
       </header>
 
       <section id="home">
-        <img src="/img/water.png" alt="background" id="background"></img>
+        <img src="/img/grasslogos.png" alt="background" id="background"></img>
         <h2 id="text">
-          <span>Reduce Your Utility Usage</span>
-          <br />Make B3TR Token
+          <span>Slash Your Utility Bills, Beat Your Neighbors</span><br />
+          <br />Make Your Hood B3TR
         </h2>
         <a href="#waterCycle" id="btn">Connect</a>
         

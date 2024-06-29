@@ -7,7 +7,7 @@ export default function App({ Component }: AppProps) {
         <link rel="stylesheet" type="text/css" href="style.css" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>AquaVibes</title>
+        <title>Power Up! with VeChain</title>
       </head>
       <body>
         <Component />
