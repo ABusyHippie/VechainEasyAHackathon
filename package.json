@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "@vechain/sdk-hardhat-plugin": "^1.0.0-beta.18",
     "@vechain/sdk-rpc-proxy": "^1.0.0-beta.18"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.5"
   }
 }

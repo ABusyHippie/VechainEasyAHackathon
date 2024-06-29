@@ -1,8 +1,8 @@
 {
-    "url": "http://127.0.0.1:8669",
+    "url": "https://node-testnet.vechain.energy",
     "port": 8545,
     "accounts": {
-        "mnemonic": "denial kitchen pet squirrel other broom bar gas better priority spoil cross",
+        "mnemonic": "bla bla",
         "count": 10
     },
     "verbose": true,
