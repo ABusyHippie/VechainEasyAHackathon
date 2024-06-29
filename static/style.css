@@ -77,7 +77,7 @@ body
 
 #header ul li #text
 {
-  color: #073344;
+  color: #074411;
   font-family: 'Rancho', cursive;
   font-size: 1.5em;
 }
@@ -139,12 +139,81 @@ section img
 section #text 
 {
   position: absolute;
-  color: #094b65;
+  color: #00cb62;
   font-size: 15vh;
   text-align: center;
   line-height: 0.55em;
   font-family: 'Rancho', cursive;
   transform: translateY(-50%);
+  text-shadow: 
+    -3px -3px 0 #000,  
+     3px -3px 0 #000,
+    -2px  3px 0 #000,
+     3px  3px 0 #000,
+    -3px  0px 0 #000,
+     3px  0px 0 #000,
+     0px -3px 0 #000,
+     0px  3px 0 #000;
+}
+
+section #text-water 
+{
+  position: absolute;
+  color: #006eb8;
+  font-size: 15vh;
+  text-align: center;
+  line-height: 0.55em;
+  font-family: 'Rancho', cursive;
+  transform: translateY(-50%);
+  text-shadow: 
+    -3px -3px 0 #000,  
+     3px -3px 0 #000,
+    -3px  3px 0 #000,
+     3px  3px 0 #000,
+    -3px  0px 0 #000,
+     3px  0px 0 #000,
+     0px -3px 0 #000,
+     0px  3px 0 #000;
+}
+
+section #text-water span
+{
+  font-size: 0.20em;
+  color: #002843;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: none;
+}
+
+section #text-electric
+{
+  position: absolute;
+  color: #f3fb00;
+  font-size: 15vh;
+  text-align: center;
+  line-height: 0.55em;
+  font-family: 'Rancho', cursive;
+  transform: translateY(-50%);
+  text-shadow: 
+    -3px -3px 0 #000,  
+     3px -3px 0 #000,
+    -3px  3px 0 #000,
+     3px  3px 0 #000,
+    -3px  0px 0 #000,
+     3px  0px 0 #000,
+     0px -3px 0 #000,
+     0px  3px 0 #000;
+}
+
+section #text-electric span
+{
+  font-size: 0.20em;
+  color: #f3fb00;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: none;
 }
 
 section #text span
