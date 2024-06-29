@@ -1,0 +1,14 @@
+# Deno related files
+.cache
+deps
+deno_test_coverage
+
+# IDE files
+.vscode
+.idea
+
+# Dependency management files
+.lock
+
+# Other files
+.DS_Store
