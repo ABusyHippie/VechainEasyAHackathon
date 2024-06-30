@@ -280,6 +280,57 @@ section #text span
   transform: translateY(100px);
 }
 
+#btn-form
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background: #fff;
+  color: #094b65;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  transform: translateY(100px);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-form
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background: #fff;
+  color: #094b65;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  transform: translateY(100px);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-form-clicked
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background: #ffffff;
+  color: #ff003c;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  transform: translateY(100px);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 #btn:hover
 {
   background: #009f03;

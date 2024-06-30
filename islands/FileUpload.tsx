@@ -1,5 +1,3 @@
-/** @jsx h */
-import { h } from "preact";
 import { useState } from "preact/hooks";
 
 const FileUpload = () => {
@@ -13,7 +11,7 @@ const FileUpload = () => {
   };
 
   return (
-    <div>
+    <div id="btn-form">
       <input type="file" onChange={handleFileChange} />
       {fileName && <p>Selected file: {fileName}</p>}
     </div>

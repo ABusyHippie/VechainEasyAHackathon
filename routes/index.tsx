@@ -1,7 +1,15 @@
 import { useSignal } from "@preact/signals";
-import { useEffect } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
+import UploadButton from "../islands/UploadButton.tsx";
+// import FileUpload from "../islands/FileUpload.tsx";
 
 export default function Home() {
+  // const [showFileUpload, setShowFileUpload] = useState(false);
+
+  // const handleButtonClick = () => {
+  //   setShowFileUpload(true);
+  // };
+
   return (
     <div>
       <header id="header">
@@ -17,7 +25,7 @@ export default function Home() {
           <span>Slash Your Utility Bills, Compete With Your Neighbors</span><br />
           <br />Earn B3TR Today
         </h2>
-        <a href="#waterCycle" id="btn">Sign In</a>
+          <UploadButton />
       </section>
 
       <section id="waterCycle" >
