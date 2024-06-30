@@ -28,7 +28,7 @@ export default function Home() {
           <span>Collect Rainwater Challenge 💧</span> <br />
           <span>Grow Your Own Veggie Garden Multiplier 🥕</span>
         </h2>
-        <a href="#waterCycle2" id="btn">Submit Your Water Bill Now</a>
+        <a href="#waterCycle2" id="btn-water">Submit Your Water Bill Now</a>
       </section>
       
       <section id="waterCycle" >
