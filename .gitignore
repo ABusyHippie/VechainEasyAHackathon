@@ -17,3 +17,4 @@ _fresh/
 .DS_Store
 .env
 /config.json
+node_modules
