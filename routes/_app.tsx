@@ -1,4 +1,5 @@
 import { AppProps } from "$fresh/server.ts";
+// import {PrivyProvider} from '@privy-io/react-auth';
 
 export default function App({ Component }: AppProps) {
   return (
