@@ -12,7 +12,7 @@ export default function Home() {
       </header>
 
       <section id="home">
-        <img src="/img/grasslogos.png" alt="background" id="background"></img>
+        <img src="/img/main.png" alt="background" id="background"></img>
         <h2 id="text">
           <span>Slash Your Utility Bills, Beat Your Neighbors</span><br />
           <br />Make Your Hood B3TR
@@ -21,7 +21,7 @@ export default function Home() {
       </section>
 
       <section id="waterCycle" >
-        <img src="/img/water.png" alt="background" id="background"></img>
+        <img src="/img/agua.png" alt="background" id="background"></img>
         <h2 id="text-water">
           <br />Use Less Water <br />
           <span>Daily Reminders of sustainable habits</span> <br />
@@ -32,7 +32,7 @@ export default function Home() {
       </section>
       
       <section id="waterCycle" >
-        <img src="/img/electric.png" alt="background" id="background"></img>
+        <img src="/img/light.png" alt="background" id="background"></img>
         <h2 id="text-electric">
           <br />Use Less Electricity <br />
           <span>Try High Efficiency Bulbs 💡</span> <br />
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       <section id="waterCycle" >
-        <img src="/img/fire.png" alt="background" id="background"></img>
+        <img src="/img/gas.png" alt="background" id="background"></img>
         <h2 id="text-gas">
           <br />Use Less Gas <br />
           <span>Recycle Your Cooking Oil with  <a href="https://oily.uco.network/home">Oily</a></span> <br />
