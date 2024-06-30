@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@privy-io/react-auth": "^1.73.0",
     "@vechain/sdk-hardhat-plugin": "^1.0.0-beta.18",
     "@vechain/sdk-rpc-proxy": "^1.0.0-beta.18"
   },
