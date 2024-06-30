@@ -7,7 +7,7 @@ export default function Home() {
       <header id="header">
         <a href="#" class="logo">Power Up!</a>
         {/* <ul>
-          <li><p id="text">Reduce your utilities use, make B3TR!</p></li>
+          <li><p id="text">Reduce your utilities use, make B3TR! x</p></li>
         </ul> */}
       </header>
 
