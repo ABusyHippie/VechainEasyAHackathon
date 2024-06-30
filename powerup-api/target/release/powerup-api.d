@@ -1,0 +1,1 @@
+/Users/dylankawalec/Desktop/dev/VechainEasyAHackathon/powerup-api/target/release/powerup-api: /Users/dylankawalec/Desktop/dev/VechainEasyAHackathon/powerup-api/src/main.rs /Users/dylankawalec/Desktop/dev/VechainEasyAHackathon/powerup-api/src/transaction.rs
