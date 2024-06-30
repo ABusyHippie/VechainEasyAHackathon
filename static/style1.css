@@ -49,7 +49,8 @@ body
 {
   color: #f3fb00;
   font-weight: 700;
-  font-size: 3em;
+  margin: 0 auto;
+  font-size: 7em;
   text-decoration: none;
   text-shadow: 
     -3px -3px 0 #000,  
@@ -302,11 +303,34 @@ section #text span
 
 #btn:hover
 {
+  background: #006302;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(97px);
+}
+
+#btn-water
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background: #fff;
+  color: #094b65;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  transform: translateY(100px);
+}
+
+#btn-water:hover
+{
   background: #094b65;
   color: #fff;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   transform: translateY(97px);
 }
+
 #btn-lit
 {
   text-decoration: none;
