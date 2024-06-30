@@ -17,3 +17,5 @@ deno_test_coverage
 _fresh/
 
 /config.json
+
+/powerup-api/.env
