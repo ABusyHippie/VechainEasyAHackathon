@@ -18,7 +18,6 @@ export default function Home() {
           <br />Make Your Hood B3TR
         </h2>
         <a href="#waterCycle" id="btn">Connect</a>
-        
       </section>
 
       <section id="waterCycle" >
