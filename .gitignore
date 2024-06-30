@@ -10,10 +10,10 @@ deno_test_coverage
 # Dependency management files
 .lock
 
-# Other files
-.DS_Store
-
 # Fresh build directory
 _fresh/
 
+# Other files
+.DS_Store
+.env
 /config.json
