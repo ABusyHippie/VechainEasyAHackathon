@@ -17,7 +17,7 @@ export default function Home() {
           <span>Slash Your Utility Bills, Compete With Your Neighbors</span><br />
           <br />Earn B3TR Today
         </h2>
-        <a href="#waterCycle" id="btn">Connect</a>
+        <a href="#waterCycle" id="btn">Sign In</a>
       </section>
 
       <section id="waterCycle" >
