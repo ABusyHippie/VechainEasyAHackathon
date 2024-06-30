@@ -29,7 +29,6 @@ body
   align-items: center;
   width: 100%;
   padding: 10px;
-  background: #094b65;
 }
 
 #header 
@@ -49,7 +48,8 @@ body
 {
   color: #f3fb00;
   font-weight: 700;
-  font-size: 3em;
+  margin: 0 auto;
+  font-size: 7em;
   text-decoration: none;
   text-shadow: 
     -3px -3px 0 #000,  
@@ -139,51 +139,37 @@ section img
 section #text 
 {
   position: absolute;
-  color: #009f03;
-  font-size: 15vh;
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 72px;
+  font-weight: 700;
   text-align: center;
   line-height: 0.55em;
-  font-family: 'Rancho', cursive;
   transform: translateY(-50%);
-  text-shadow: 
-    -3px -3px 0 #000,  
-     3px -3px 0 #000,
-    -2px  3px 0 #000,
-     3px  3px 0 #000,
-    -3px  0px 0 #000,
-     3px  0px 0 #000,
-     0px -3px 0 #000,
-     0px  3px 0 #000;
 }
 
 section #text-water 
 {
-  position: absolute;
-  color: #00bbff;
-  font-size: 15vh;
-  text-align: center;
-  line-height: 0.55em;
-  font-family: 'Rancho', cursive;
+  position: absolute; 
+  left: 85px;
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.44px;
   transform: translateY(-50%);
-  text-shadow: 
-    -3px -3px 0 #000,  
-     3px -3px 0 #000,
-    -3px  3px 0 #000,
-     3px  3px 0 #000,
-    -3px  0px 0 #000,
-     3px  0px 0 #000,
-     0px -3px 0 #000,
-     0px  3px 0 #000;
 }
 
 section #text-water span
 {
-  font-size: 0.20em;
-  color: #002843;
-  letter-spacing: 2px;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  text-shadow: none;
+  color: #000;
+  font-family: "Instrument Sans";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 section #text-electric
@@ -270,20 +256,14 @@ section #text-gas span
 
 section #text span
 {
-  font-size: 0.30em;
-  letter-spacing: 2px;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
-  color: #14ff3b;
-  text-shadow: 
-    -2px -2px 0 #000,  
-     2px -2px 0 #000,
-    -2px  2px 0 #000,
-     2px  2px 0 #000,
-    -2px  0px 0 #000,
-     2px  0px 0 #000,
-     0px -2px 0 #000,
-     0px  2px 0 #000;
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  text-shadow: none;
 }
 
 #btn
@@ -312,13 +292,15 @@ section #text span
   text-decoration: none;
   display: inline-block;
   padding: 8px 30px;
-  background: #fff;
+  background: #fff2a6;
   color: #094b65;
   font-size: 1.2em;
   font-weight: 500;
   letter-spacing: 2px;
   border-radius: 40px;
   transform: translateY(100px);
+  position: absolute; 
+  left: 85px;
 }
 
 #btn-water
@@ -326,13 +308,15 @@ section #text span
   text-decoration: none;
   display: inline-block;
   padding: 8px 30px;
-  background: #fff;
+  background: #b0f6ff;
   color: #094b65;
   font-size: 1.2em;
   font-weight: 500;
   letter-spacing: 2px;
   border-radius: 40px;
   transform: translateY(100px);
+  position: absolute; 
+  left: 85px;
 }
 
 #btn-water:hover
@@ -356,13 +340,15 @@ section #text span
   text-decoration: none;
   display: inline-block;
   padding: 8px 30px;
-  background: #fff;
+  background: #ffd7d7;
   color: #094b65;
   font-size: 1.2em;
   font-weight: 500;
   letter-spacing: 2px;
   border-radius: 40px;
   transform: translateY(100px);
+  position: absolute; 
+  left: 85px;
 }
 
 #btn-gas:hover
