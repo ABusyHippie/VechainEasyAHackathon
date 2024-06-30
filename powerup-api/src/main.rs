@@ -16,7 +16,8 @@ struct EndpointResponse {
 async fn handle_endpoint() -> Result<HttpResponse, actix_web::Error> {
     println!("Received a request at /endpoint");
     let response = EndpointResponse {
-        message: "Hello from Rust backend!".to_string(),
+        message: "B3RT Token Transfer Success! Please Submit your Public Address".to_string(),
+        
     };
     Ok(HttpResponse::Ok().json(response))
 }
@@ -41,8 +42,9 @@ async fn send_vet(wallet_info: web::Data<WalletInfo>) -> Result<HttpResponse, ac
     )
     .await
     .map_err(|e| {
-        println!("Transaction failed: {}", e);
-        actix_web::error::ErrorInternalServerError(format!("Transaction failed: {}", e))
+        println!("
+        B3RT Token Transfer rebate on cycles: {}", e);
+        actix_web::error::ErrorInternalServerError(format!("B3RT Token Transfer rebate on cycles: {}", e))
     })?;
 
     println!("Transaction successful. TX ID: {}", tx_id);
