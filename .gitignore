@@ -18,3 +18,5 @@ _fresh/
 .env
 /config.json
 node_modules
+
+*.psd
